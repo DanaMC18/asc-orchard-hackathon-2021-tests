@@ -21,7 +21,7 @@ const assert = require('assert');
 describe('Hype Machine', function() {
 
   it('hypes the new Drip single', function() {
-    assert.strictEqual('New single Drip is dropping soon!', newSingle('Drip'));
+    assert.strictEqual(newSingle('Drip'), 'New single Drip is dropping soon!');
   });
 
   it('hypes the new Body single', function() {
